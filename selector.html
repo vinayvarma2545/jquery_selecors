@@ -11,13 +11,17 @@
         $("button").click(function(){
         $("p").hide();
         });
+        $("#555").click(function(){
+            $("#123").hide();
+        })
         });
     </script>
 </head>
 <body>
     <p>This is a paragraph.</p>
     <p>This is another paragraph.</p>
-    
-    <button>Click me to hide paragraphs</button>
+    <b id="123">This is extra paragraph.</b><br>
+    <button>Click me to hide paragraphs</button><br>
+    <button id="555">click to hide extra para</button>
 </body>
 </html>
